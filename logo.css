@@ -1,0 +1,14 @@
+.logo {
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	display: inline-block;
+	text-indent: -9999px;
+}
+
+.logo--cornell {
+	background-image: url("cornell-logo.png");
+	height: 72px;
+	width: 230px;
+	margin-left: auto;
+	margin-right: auto;
+}
