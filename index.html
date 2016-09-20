@@ -16,6 +16,7 @@
 
     <!-- Custom styles for this template -->
     <link href="https://v4-alpha.getbootstrap.com/examples/cover/cover.css" rel="stylesheet">
+
   </head>
 
   <body>
@@ -40,9 +41,13 @@
 
           <div class="inner cover">
               <p class="lead">
-                <button onclick="getElementById('demo').innerHTML='Oh! You clicked the button!'" class="btn btn-lg btn-secondary">On click event</button>
+                <button onclick="myFunction()" class="btn btn-lg btn-secondary">On click event</button>
               </p>
-              <p id="demo"></p>
+            <script>
+                function myFunction() {
+                    alert("You clicked the box!");
+                }
+            </script>
             <h1 class="cover-heading">Github Homepage for zl557#cornell.edu</h1>
             <p class="lead">Zhen Liu is a Master's Candidate of Information System, Connective Media at Cornell Tech. He likes the startup system engineering class.</p>
             <p class="lead">
@@ -64,6 +69,8 @@
       </div>
 
     </div>
+
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
